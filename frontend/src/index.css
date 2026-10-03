@@ -451,6 +451,17 @@ img { max-width: 100%; display: block; }
 }
 .bouton--clair:hover { background: #eef1f6; color: var(--bleu-nuit); }
 
+.bouton--whatsapp {
+  background: #25d366;
+  box-shadow: 0 6px 16px rgba(37, 211, 102, 0.32);
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  margin-top: 16px;
+}
+.bouton--whatsapp:hover { background: #1fb858; }
+.bouton--whatsapp__icone { display: flex; align-items: center; }
+
 .message-succes { font-family: var(--police-titre); background: var(--bleu-clair); color: var(--bleu-nuit); padding: 12px 16px; font-size: 0.9rem; }
 .message-erreur { font-family: var(--police-titre); background: #fbe6e6; color: var(--rouge-emig); padding: 12px 16px; font-size: 0.9rem; }
 

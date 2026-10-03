@@ -1,0 +1,21 @@
+# Backend (Python)
+backend/venv/
+backend/.env
+backend/__pycache__/
+backend/app/__pycache__/
+backend/app/**/__pycache__/
+*.pyc
+backend/*.db
+
+# Frontend (Node)
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+
+# Uploads envoyés par les utilisateurs (garder la structure, pas le contenu)
+backend/uploads/activities/*
+backend/uploads/members/*
+!backend/uploads/activities/.gitkeep
+!backend/uploads/members/.gitkeep
+
+.DS_Store

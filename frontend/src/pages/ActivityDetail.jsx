@@ -67,7 +67,7 @@ export default function ActivityDetail() {
         <h1>{activite.title}</h1>
         <div className="activite-meta">
           <span>📅 {formatDateLong(activite.activity_date)}</span>
-          {activite.location && <span>📍 {activite.location}</span>}
+          {activite.location && <span>{activite.location}</span>}
         </div>
         <button className="bouton bouton--whatsapp" onClick={partagerSurWhatsApp}>
           <span className="bouton--whatsapp__icone">

@@ -9,8 +9,9 @@
   --encre-douce: #4d5760;
   --ligne: #dbd6c8;
 
-  --police-titre: 'Space Grotesk', 'Helvetica Neue', Arial, sans-serif;
-  --police-texte: 'Source Serif 4', Georgia, 'Times New Roman', serif;
+  --police-titre: Arial, Helvetica, sans-serif;
+  --police-texte: Arial, Helvetica, sans-serif;
+  --police-marque: 'Space Grotesk', Arial, sans-serif;
 
   --rayon: 10px;
   --ombre-douce: 0 1px 3px rgba(14, 42, 82, 0.08), 0 8px 24px rgba(14, 42, 82, 0.06);
@@ -92,7 +93,7 @@ img { max-width: 100%; display: block; }
 .masthead__identite img { width: 54px; height: 54px; flex-shrink: 0; }
 
 .masthead__ecole {
-  font-family: var(--police-titre);
+  font-family: var(--police-marque);
   font-size: 1rem;
   font-style: italic;
   font-weight: 500;
@@ -102,7 +103,7 @@ img { max-width: 100%; display: block; }
 }
 
 .masthead__nom {
-  font-family: var(--police-titre);
+  font-family: var(--police-marque);
   font-weight: 700;
   font-style: italic;
   font-size: clamp(1.8rem, 3.4vw, 2.7rem);
